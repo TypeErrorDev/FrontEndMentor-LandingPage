@@ -1,0 +1,24 @@
+{
+  "name": "frontendmentor-landingpage",
+  "version": "1.0.0",
+  "description": "![Design preview for the Meet landing page coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypeErrorDev/FrontEndMentor-LandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TypeErrorDev/FrontEndMentor-LandingPage/issues"
+  },
+  "homepage": "https://github.com/TypeErrorDev/FrontEndMentor-LandingPage#readme",
+  "dependencies": {
+    "prettier": "^2.7.1",
+    "sass": "^1.54.9"
+  }
+}
