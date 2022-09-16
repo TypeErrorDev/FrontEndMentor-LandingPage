@@ -1,4 +1,4 @@
-@use "../util" as *;
+@use "../util/variables" as *;
 
 .top-container {
   display: flex;
@@ -17,7 +17,7 @@
   //top: 100px;
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: 153px;
-  margin: 30px 0 0 35px;
+  width: 350px;
+  height: 145px;
+  margin-top: 30px;
 }

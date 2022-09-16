@@ -1,0 +1,25 @@
+@use "../util/variables" as *;
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-btn{
+    background-color: $dark-teal;
+    color: $white;
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: $body-font-size;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $hover-teal;
+    }
+}

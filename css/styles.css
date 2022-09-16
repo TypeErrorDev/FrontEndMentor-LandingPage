@@ -13,9 +13,56 @@
 .hero-img img {
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: 153px;
-  margin: 30px 0 0 35px;
+  width: 350px;
+  height: 145px;
+  margin-top: 30px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#top-para {
+  font-size: 40px;
+}
+
+#bot-para {
+  font-size: 18px;
+  color: #87879D;
+  letter-spacing: 2px;
+  width: 100vw;
+  margin: auto;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-btn {
+  background-color: #4D96A9;
+  color: #FAFAFA;
+  width: 180px;
+  height: 45px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.top-btn:hover {
+  background-color: #8FE3F9;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Red Hat Display", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

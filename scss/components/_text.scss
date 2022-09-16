@@ -1,0 +1,20 @@
+@use "../util/variables" as *;
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#top-para {
+  font-size: $h2-font-size;
+}
+
+#bot-para {
+  font-size: $body-font-size;
+  color: $grey;
+  letter-spacing: 2px;
+  width: 100vw;
+  margin: auto;
+}
